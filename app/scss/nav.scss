@@ -1,0 +1,38 @@
+.navbar-wrapper{
+    height: 57px;
+   margin: 31px 0;
+    padding: 0 165px;
+
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-brand{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+
+        .brand-img{
+            height: 80px;
+            width: 180px;
+        }
+
+        span{
+            font-size: 62px;
+            color: hsla(336, 84%, 45%, 1);
+        }
+        }
+
+        
+
+        .navbar-list{
+            display: flex;
+        align-items: center;
+        gap: 5px;
+          
+        }
+}
